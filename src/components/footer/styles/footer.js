@@ -29,7 +29,12 @@ export const Link = styled.a`
     color: #757575;
     margin-bottom: 20px;
     font-size: 14px;
-    text-decoration: 40px
+    text-decoration: 40px;
+    min- width:25%;
+
+    @media (max-width: 650px){
+        min-width:50%;
+    }
 `;
 
 export const Title = styled.p`
